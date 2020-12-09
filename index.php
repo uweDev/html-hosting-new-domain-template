@@ -61,9 +61,9 @@ You can download this Open-Source-Software from here: https://github.com/uweDev/
 			</header>
 			<div class="reservedDomainContent">
 				<h2>Deutsch</h2>
-				<p>Diese Domain wurde soeben freigeschaltet. Es wurden noch keine Inhalte hinterlegt.</p>
+				<p>Diese Domain (<?php echo $_SERVER["SERVER_NAME"]; ?>) wurde soeben freigeschaltet. Es wurden noch keine Inhalte hinterlegt.</p>
 				<h2>English</h2>
-				<p>This domain is now reserved. As of now, no content has been uploaded.</p>
+				<p>This domain (<?php echo $_SERVER["SERVER_NAME"]; ?>) is now reserved. As of now, no content has been uploaded.</p>
 			</div>
 			<footer class="text-center">
 				<a href="#">Powered by Your LOGO</a>
